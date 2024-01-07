@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color:#ECE8E1;
+  height: 100vh;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+body .tabbing-container button:hover {
+  border: 3px solid #ECE8E1;
+}
+
+header.tabbing-container{
+  background-color: #101823;
+  display: flex;
+  padding: 20px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  header.tabbing-container {
+    flex-direction: column;
+  }
+}
+
+header.tabbing-container .header-logo img{
+  width: 150px;
+}
+
+header.tabbing-container .tab-list ul {
+  display: flex;
+}
+
+header.tabbing-container .tab-list li {
+  list-style-type: none;
+}
+
+header.tabbing-container button {
+  padding: 8px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  color: white;
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: #FF4655;
+  cursor: pointer;
+  transition: all .15s ease-in;
+}
+
+header.tabbing-container .tab-list li a {
+  text-decoration: none;
+  font-size: 1.05rem;
+  font-weight:500;
+  color: #ECE8E1;
+  padding: .2rem 1.5rem;
+  border-radius: 10px;
+  transition: all .3s ease-in-out;
+}
+
+header.tabbing-container .tab-list li:hover a {
+  background-color: #323232;
+  color: #ECE8E1;
+}
+
+header.tabbing-container button:hover a {
+  border-color: #ECE8E1;
+  background-color: #FF4655;
+  color: #ECE8E1;
+}
+  
+main .content .content-description {
+  padding-right: 40px;
+  font-size: 2vw;
+}
+ 
+main .content .content-description .title {
+  font-size: 3.5rem;
+  margin-block: 1rem;
+}
+ 
+main .content .content-description pre {
+  line-height: 1.7rem;
+  font-size: 1.2rem;
+}
+ 
+main .content .content-description button {
+  padding: .8rem 2.5rem;
+  margin-block-start: 1rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  color: white;
+ 
+  border: 3px solid transparent;
+  border-radius: 999px;
+  background-color: #2D3E50;
+  cursor: pointer;
+  transition: all .15s ease-in;
+}
+ 
+main .content .content-description button:hover {
+  border: 3px solid #2D3E50;
+  color: #2D3E50;
+  background-color: transparent;
+}
+ 
+main .content .content-image {
+  flex: 1;
+  display: flex;
+}
+
+
+
+main .content .content-image img {
+  margin: auto;
+  min-width: 250px;
+  width: 300px;
+}
+
+main {
+  max-width: 1200px;
+  width: 100%;
+  margin-inline: auto;
+  padding: 2rem 4rem;
+  align-items: center;
+}
+ 
+main .content{
+  flex: 1;
+  display: flex;
+  padding: 80px;
+  margin-bottom: 60px;
+  margin-top: 20px;
+  
+}
+
+main .promo {
+  text-align: center;
+}
+
+main .promo .underline{
+  width: 160px;
+  height: 5px;
+  background-color: #FF4655;
+  margin: 20px auto 50px;
+}
+
+main .promo-card{
+  flex: 1;
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 120px;
+  justify-content: center;
+}
+
+main .promo-card .content-card{
+
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  padding: 20px;
+  margin: 20px;
+  background-color: #2D3E50;
+  color: #ECE8E1;
+}
+
+main .promo-card .content-card img{
+ border-radius: 8px;
+ width: 100px;
+}
+
+.garis-coret {
+  text-decoration: line-through;
+}
+
+.harga-promo{
+  color: #FF4655;
+}
+
+main .About-Us {
+  text-align: center;
+}
+
+main .about-us-card{
+  flex: 1;
+  display: flex;
+  border-radius: 20px;
+  margin-bottom: 120px;
+  text-align: left;
+}
+
+main .about-us-card .content-card{
+
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+main .about-us-card .content-card img{
+ border-radius: 8px;
+ width: 100px;
+}
+
+main .About-Us .underline{
+  width: 160px;
+  height: 5px;
+  background-color: #FF4655;
+  margin: 20px auto 50px;
+}
+
+main .About-Us .content-image img {
+  flex:auto;
+  display: flex;
+  min-width: 250px;
+  width: 300px;
+}
+
+main .Daftar-Game {
+  text-align: center;
+}
+
+main .Daftar-Game-Card {
+  flex: 1;
+  display: flex;
+  flex-wrap:wrap;
+  border-radius: 20px;
+  margin-bottom: 120px;
+  text-align: center;
+  justify-content: center;
+}
+
+main .Daftar-Game-Card .content-card{
+
+  box-shadow: 0 2px 8px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+main .Daftar-Game-Card .content-card img{
+ border-radius: 8px;
+ width: 100px;
+}
+
+main .Daftar-Game .underline{
+  width: 160px;
+  height: 5px;
+  background-color: #FF4655;
+  margin: 20px auto 50px;
+}
+
+main .Daftar-Game .content-image img {
+  flex:auto;
+  display: flex;
+  min-width: 250px;
+  width: 300px;
+}
+
+#Kontak-Kami{
+  display: flex;
+  padding: 25px 70px;
+  text-align: left;
+}
+
+.Daftar-Kontak,.Biodata-Owner{
+  flex: 3;
+  padding: 10px 20px 0px;
+}
+.Biodata-Owner{
+  flex: 1;
+}
+
+.Daftar-Kontak > .card > h2::after{
+  content: '';
+  display: block;
+  width: 60px;
+  height: 5px;
+  margin: auto;
+  margin-top: 15px;
+  background-color: rgb(236, 236, 209);
+}
+
+section{
+  margin: 30px 40px;
+  border-radius: 8px;
+  border: #323232;
+}
+
+.container {
+  border: 1px solid #2D3E50;
+  padding: 20px;
+  text-align: center;
+  background-color: #f8f8f8;
+  max-width: 300px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.container:hover {
+  background-color: #fff;
+}
+
+.social-media-container {
+  margin-top: 20px;
+}
+
+.social-media-container img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+
+
+.profile-owner{
+  object-fit: cover;
+  height: 140px;
+  width: 140px;
+  margin-top: 40px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+}
+
+.Biodata-Owner{
+  text-align: center;
+}
+
+.Biodata-Owner > .card{
+  Padding: 10px 25px;
+  position: relative;
+  background-color: #fefefe;
+  border-radius: 24px;
+}
+
+.text-muted{
+  color:#323232;
+  font-size: 12px;
+  margin-top: 8px;
+  margin-bottom: 30px;
+}
+
+.table-responsive{
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  border-radius: 8px;
+}
+
+.Biodata-Owner > table{
+  width: auto;
+
+  margin-bottom: 55px;
+}
+
+tr,th,td{
+  text-align: left;
+  padding: 10px;
+}
+
+tr:nth-child(odd){
+  background-color: #ffff;
+}
+
+tr:nth-child(odd) {
+  background-color: #fefefe;
+}
+
+
+
+footer {
+  padding: 20px;
+  color: #ECE8E1;
+  Background-color: #2D3E50;
+  text-align: center;
+ 
+}
+
+.footer-logo img{
+  text-align: left;
+  width: 150px;
+}
