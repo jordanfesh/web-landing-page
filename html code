@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Submission Tugas Akhir Membuat Website</title>
+    <link rel="shortcut icon" href="Assets/image/Bekk Voucher.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/styles/style.css">
+</head>
+<!---->
+<body>
+    <header class="tabbing-container">
+        <div class="header-logo">
+                <img src="Assets/image/Bekk Voucher Terang.png" alt="logo"/>
+        </div>
+        <nav class="tab-list">
+        <ul>
+            <li class="tab-item active"><a href="index.html">Beranda</a></li>
+            <li class="tab-item"><a href="#Daftar-Game">Daftar Game</a></li>
+            <li class="tab-item"><a href="#Kontak-Kami">Hubungi Kami</a></li>
+            <li class="tab-item"><a href="#Tentang-Kami">Tentang Kami</a></li>
+        </ul>
+    </nav>
+            <button>Buat Akun</button>
+    </header>
+    <main>
+      <div class="content">
+        <div class="content-description">
+          <h1> PERKAYA GAMEMU</h1>
+          <a>
+          Buat kamu yang butuh top up game, disini aja!
+          terlengkap, tercepat, termurah, hanya di BEKK VOUCHER
+          </a>
+
+       
+        </div>
+ 
+        <div class="content-image">
+            <img src="Assets/image/Digital Illustration.png" alt="illustration">
+        </div>    
+      </div>
+
+      <div class="promo">
+        <h1 id="Promo">
+          PROMO TERBAIK BULAN INI
+        </h1>
+        <div class="underline"></div>
+      
+      <div class="promo-card">
+          <div class="content-card">
+            <img src="Assets/image/free fire.png">
+              <h2 id="Free Fire">310 DM</h2>
+              <h3>Free Fire</h3>
+              <h2 class="harga-promo">
+                Rp45.000
+              </h2>
+              <p class="garis-coret"> Rp50.000</p>
+          </div>
+    <div class="content-card">
+      <img src="Assets/image/codm.png">
+        <h2 id="Call of Duty Mobile">420 CP</h2>
+        <h3>Call of Duty Mobile</h3>
+        <h2 class="harga-promo">
+          Rp80.000
+        </h2>
+        <p class="garis-coret"> Rp90.000</p>
+     </div>
+
+     <div class="content-card">
+      <img src="Assets/image/mobile legends.png">
+        <h2 id="Call of Duty Mobile">500 DM</h2>
+        <h3>Mobile Legends</h3>
+        <h2 class="harga-promo">
+          Rp140.000
+        </h2>
+        <p class="garis-coret"> Rp150.000</p>
+     </div>
+    </div>
+</div>
+
+<div class="About-Us">
+  <h1 id="Tentang-Kami">
+    TENTANG KAMI
+  </h1>
+  <div class="underline"></div>
+
+
+<article class="about-us-card">
+  <div class="content-card">
+    <div class="content-card-image">
+      <img src="Assets/image/Trusted.png">
+      <h2 id="Terpercaya">TERPERCAYA</h2>
+    </div>
+    <p>
+      Berpengalaman melayani pelanggan sejak Januari 2021, kami sudah dipercaya
+      oleh lebih dari 1000 pelanggan yang puas. Pemilik yang juga berpengalaman dibidangnya 
+      membuat Bekk Voucher semakin dipercaya oleh para gamer seluruh Indonesia
+    </p>
+    </div>
+
+    <div class="content-card">
+      <img src="Assets/image/Fast.png">
+  <h2 id="Tercepat">TERCEPAT</h2>
+  <p>
+    Kami tak hanya menjual, namun juga mengerti akan kebutuhan pelanggan yang membutuhkan item
+    yang serba instan. Oleh karena itu, kami berkomitmen mengirmkan item secara instan kapanpun
+    dan dimanapun. Pesan sekarang, terima sekarang!
+  </p>
+</div>
+
+<div class="content-card">
+<img src="Assets/image/Responsive Chat.png">
+  <h2 id="Responsif">RESPONSIF</h2>
+  
+  <p>
+    Kami memiliki admin yang responsif dan cekatan dalam memahami kebutuhan pelanggan. Tak perlu menunggu waktu lama
+    untuk admin membalas chat. 24/7 kami siap membantu memberikan solusi atas pertanyaan pertanyaan pelanggan.
+  </p>
+</div>
+</article>
+
+
+
+<div class="Daftar-Game">
+  <h1 id="Daftar-Game">
+    DAFTAR GAME
+  </h1>
+  <div class="underline"></div>
+</div>
+
+<div class="Daftar-Game-Card">
+  <div class="content-card">
+    <div class="content-card-image">
+      <img src="Assets/image/VALORANT.jpg">
+      <h3 id="Valorant">Valorant</h3>
+    </div>
+    </div>
+
+    <div class="content-card">
+      <img src="Assets/image/mobile legends.png">
+  <h3 id="Mobile-Legends">Mobile Legends</h3>
+</div>
+
+<div class="content-card">
+<img src="Assets/image/codm.png">
+  <h3 id="Call-of-Duty-Mobile">Call of Duty Mobile</h3>
+</div>
+
+<div class="content-card">
+  <img src="Assets/image/free fire.png">
+    <h3 id="Free-Fire">Free Fire</h3>
+  </div>
+
+  <div class="content-card">
+    <img src="Assets/image/PUBGM.png">
+      <h3 id="PUBGM">PUBG Mobile</h3>
+    </div>
+
+    <div class="content-card">
+      <img src="Assets/image/Genshin Impact.jpg">
+        <h3 id="Genshin-Impact">Genshin Impact</h3>
+      </div>
+
+      <div class="content-card">
+        <img src="Assets/image/Hokai Impact 3.jpg">
+          <h3 id="Hokai-Impact-3">Hokai Impact 3</h3>
+        </div>
+        <div class="content-card">
+          <img src="Assets/image/Clash of Clans.png">
+            <h3 id="Clash-of-Clans">Clash of Clans</h3>
+          </div>
+
+          <div class="content-card">
+            <img src="Assets/image/Sausage Man.png">
+              <h3 id="Sausage-Man">Sausage Man</h3>
+            </div>
+    </div>
+
+    <aside id="Kontak-Kami">
+      <div class="Daftar-Kontak">
+        <div class="card">
+      <section>
+        <h2> Kontak Kami</h2>
+        <div class="container" onclick="window.location.href='https://wa.me/6285155336083'">
+          <p>Kontak via WhatsApp</p>
+        </div>
+
+        <div class="container" onclick="window.location.href='https://www.instagram.com/bekkvoucher.id/'">
+          <div class="social-media-container">
+              <img src="assets/image/Instagram.png" alt="Instagram Logo">
+              <p>Instagram</p>
+          </div>
+      </div>
+      </div>
+        </div>
+      </section>
+
+      <div class="Biodata-Owner">
+        <div class="card">
+            <img src="assets/image/fotodiri.jpg" class="profile-owner">
+            <h4>Mohammad Jordan Feshilal Antarik</h4>
+            <p class="text-muted">Pemilik</p>
+            <div class="responsive-table">
+                <table>
+                    <tbody>
+                        <tr>
+                            <th>Email</th>
+                            <td>jordy.fesh27@gmail.com</td>
+                        </tr>
+                        <tr>
+                            <th>Domisili</th>
+                            <td>Kota Bekasi, Jawa Barat</td>
+                        </tr>
+                        <tr>
+                            <th>Game Favorit</th>
+                            <td>Semua game Battle Royale</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        </div>
+        </div>
+      </div>
+    </aside>
+
+
+  </main>
+      
+      <footer>
+        <div class="footer-logo">
+          <img src="assets/image/Bekk Voucher Terang.png">
+        </div>
+
+        <p>
+          &#169; 2023 Hak cipta Bekk Voucher adalah merek milik jordanfesh.
+        </p>
+        <p>
+          Versi 1.1.0
+        </p>
+   
+      </footer>
+</body>
+</html>
